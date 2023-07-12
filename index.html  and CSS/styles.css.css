@@ -1,0 +1,481 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.Instagram{
+position: relative;
+right: 1px;
+border-radius: 19px;
+width: 390px;
+
+
+}
+
+.Many{
+width: 390px;
+height: 310px;
+position: relative;
+right: 1px;
+}
+
+
+.Treding{
+position: relative;
+height: 300px;
+width: 360px;
+border-radius: 20px;
+right: 20px;
+
+}
+.Tredings{
+background: black;
+color: white;
+position: relative;
+
+
+}
+
+
+
+
+
+
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+width: 360px;
+height: 200px;
+right: 15px;
+
+
+}
+
+.contact-info {
+  margin: 10px;
+  color: white;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+.Nout{
+
+  position: relative;
+  height: 300px;
+  width: 360px;
+  border-radius: 20px;
+  right: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+.h3{
+color: grey;
+
+}
+
+.phone-block {
+  width: 500px;
+  max-width: 355px; /* Ширина блока, может быть изменена по вашему усмотрению */
+  
+  border:  1px solid black;
+  border-radius: 1px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+height: 180px;
+position: relative;
+right: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+.phone-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.phone-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.phone-content {
+  margin-bottom: 12px;
+}
+
+.phone-footer {
+  display: flex;
+  align-items: center;
+}
+
+.phone-footer-text {
+  font-size: 14px;
+  color: #999999;
+}
+
+.TTTT{
+
+width: 100%;
+height: 250px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+}
+
+.footer {
+  background-color:wheat;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+margin-bottom: 50px;
+
+
+
+
+
+}
+
+.footers {
+  background-color:wheat;
+  padding: 15px;
+  text-align: center;
+font-size: 21px;
+opacity: 0.7;
+height: 60px;
+width: 500px;
+margin-top: 40px;
+margin-bottom: 40px;
+right: 90px;
+position: relative;
+
+}
+
+.footern {
+  background-color:wheat;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+margin-bottom: 50px;
+opacity: 0.8;
+
+border-radius: 20px;
+
+
+
+}
+
+.RRRRR{
+font-size: 20px;
+color: whitesmoke;
+
+
+
+}
+
+
+
+.carousel-control-next{
+color: black;
+
+
+}
+
+
+
+.block-element {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px auto;
+top: -30px;
+position: relative;
+}
+
+.block-element p {
+  margin: 0;
+}
+.block-element {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.block-element p {
+  margin: 0;
+}
+
+
+
+.ad-container {
+  display: inline-block;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.ad-link {
+  text-decoration: none;
+}
+
+.ad-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+.contact-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+position: relative;
+top: 100px;
+width: 520px;
+height: 100%;
+
+right: 25px;
+border:solid #f1f1f1;
+border-radius: 2px;
+background: url(img/Номер_2.jpg);
+}
+
+.contact {
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+ background-color: white;
+ color: #000;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.GGGG{
+position: relative;
+left: 50px;
+font-size: 30px;
+
+}
+
+.btn-group{
+position: relative;
+opacity: 1;
+top: 40px;
+left: 40px;
+}
+
+.Sett{
+position: relative;
+left: 110px;
+top: 20px;
+
+
+}
+
+.ad-container{
+background: url(img/Номер\ 3.jpg);
+
+}
+.VVVVVV{
+background: url(img/Белый\ фон.jpg);
+position: relative;
+top: 30px;
+width: 390px;
+right: 19px;
+
+
+}
+.VVVVSSS{
+background: url(img/телефон\ иконка.jpg);
+
+
+}
+
+.bbbbbbbqqqc{
+color: #fff;
+background: url(img/орёдл.jpg);
+position: relative;
+opacity:0.7;
+border-radius: 10px;
+width: 390px;
+right: 30px;
+}
+
+.ad-container{
+position: relative;
+width: 400px;
+right: 50px;
+}
+
+
+
+.Text12{
+background-color: black;
+color: white;
+margin: 30px;
+margin-bottom: 20px;
+
+}
+.Box{
+width: 100px;
+height: 100px;
+position: relative;
+margin: 40px;
+right: 40px;
+
+}
+.Boxs{
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+  right: 50px;
+  top: 1px;
+
+
+}
+.Bax{
+width: 100px;
+height: 100px;
+position: relative;
+left: 250px;
+top: -140px;
+
+
+
+}
+.mmmey{
+position: relative;
+top: -100px;
+text-align: center;
+background-color: black;
+color: whitesmoke;
+opacity: 0.6;
+
+
+}
+
+.strelrf{
+width: 100px;
+height: 100px;
+position: relative;
+left: 120px;
+bottom: 60px;
+
+
+
+
+}
+
+
+.container {
+  display: flex;
+  margin: 50px;
+}
+
+.photo {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-box input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+}
+
+.cards{
+margin: 50px;
+
+
+}
